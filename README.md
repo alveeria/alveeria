@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Typing SVG Banner -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=4000&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=600&lines=Hi+there!+%F0%9F%91%8B;I%27m+Zoyy+%F0%9F%9A%80;Welcome+to+my+GitHub+Profile!+%F0%9F%98%8E" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=4000&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=600&lines=Hi+there!+%F0%9F%91%8B;I%27m+Alveeria+%F0%9F%9A%80;Welcome+to+my+GitHub+Profile!+%F0%9F%98%8E" alt="Typing SVG" />
 </div>
 
 <p align="center">
