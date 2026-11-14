@@ -86,7 +86,7 @@ async function generate() {
       } }
     }`, { from, to });
     for (const week of result.user.contributionsCollection.contributionCalendar.weeks) {
-      days.push(...week.contributionDays.filter(day => day.date.startsWith(String(year))));
+      days.push(...week.contributionDays.filter(day => day.date.startsWith(String(year)) && day.date >= identity.user.createdAt.slice(0, 10)));
     }
   }
   if (!days.length) throw new Error('GitHub returned an empty contribution calendar.');
