@@ -158,11 +158,11 @@
 <h2 align="center"><img src="assets/stats.gif" width="30px"/> GitHub Statistics</h2>
 
 <div align="center">
-  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=alveeria&amp;include_all_commits=true&amp;show_icons=true&amp;theme=radical&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=F75C7E&amp;icon_color=F75C7E&amp;text_color=FFFFFF" height="165em" alt="Alveeria — public GitHub stats, all-time commits"/>
-  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=alveeria&amp;layout=compact&amp;theme=radical&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=F75C7E&amp;text_color=FFFFFF" height="165em" alt="Language usage in Alveeria's public repositories"/>
+  <img src="assets/github-stats.svg" height="165em" alt="Alveeria — GitHub stats across authorized repositories"/>
+  <img src="assets/github-languages.svg" height="165em" alt="Aggregate language usage across authorized repositories"/>
 </div>
 <!-- profile-stats-status:start -->
-<p align="center"><sub>Public stats for now · private stats pending token setup · <a href="docs/PROFILE-STATS.md">Setup</a></sub></p>
+<p align="center"><sub>Public + token-accessible private repos · updated 2026-11-14 04:20 UTC<br/>Scheduled every 6 hours · language usage ≠ proficiency</sub></p>
 <!-- profile-stats-status:end -->
 
 <br/>
