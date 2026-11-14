@@ -162,11 +162,14 @@
   <img src="assets/github-stats.svg" width="495" alt="Alveeria — GitHub stats across authorized repositories" />
 </p>
 <p align="center">
+  <img src="assets/github-streak.svg" width="495" alt="Alveeria's contribution streak" />
+</p>
+<p align="center">
   <img src="assets/github-languages.svg" width="495" alt="Aggregate language usage across authorized repositories" />
 </p>
 <!-- profile-stats-cards:end -->
 <!-- profile-stats-status:start -->
-<p align="center"><sub>Public + token-accessible private repos · updated 2026-11-14 04:20 UTC<br/>Scheduled every 6 hours · language usage ≠ proficiency</sub></p>
+<p align="center"><sub>Public + token-accessible private repos · updated 2026-11-14 04:37 UTC<br/>Scheduled every 6 hours · streak follows GitHub calendar (UTC) · language usage ≠ proficiency</sub></p>
 <!-- profile-stats-status:end -->
 
 <br/>
