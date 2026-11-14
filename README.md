@@ -9,7 +9,7 @@
   </a>
 </p>
 
-<h3 align="center">🎯 Management Student | Casual Coder | JKT48 Fanboy</h3>
+<h3 align="center">🎯 Management Student | Vibe Coder | JKT48 Fanboy</h3>
 
 <p align="center">
   <!-- Profile Views Fix using pure Markdown to prevent HTML parser errors -->
