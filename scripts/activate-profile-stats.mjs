@@ -2,6 +2,10 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 
+export function enlargeRank(svg) {
+  return svg.replace(/(\.rank-text\s*\{[^}]*?font:\s*\d+\s+)\d+(?:\.\d+)?px\b/, (_, prefix) => `${prefix}36px`);
+}
+
 export function activateStats(readme, stats, languages, updatedAt) {
   for (const [name, svg] of [['stats', stats], ['languages', languages]]) {
     if (!/<svg\b/.test(svg) || !/<\/svg>\s*$/.test(svg) || /Something went wrong|Could not fetch|data-testid=["']error-message/i.test(svg)) {
@@ -42,7 +46,9 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
     readFile('assets/github-stats.svg', 'utf8'),
     readFile('assets/github-languages.svg', 'utf8'),
   ]);
-  const result = activateStats(readme, stats, languages, new Date());
+  const styledStats = enlargeRank(stats);
+  const result = activateStats(readme, styledStats, languages, new Date());
+  await writeFile('assets/github-stats.svg', styledStats);
   await writeFile('README.md', result);
   console.log('Validated generated cards and activated local README images.');
 }
