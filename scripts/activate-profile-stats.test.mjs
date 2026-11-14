@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { activateStats, enlargeRank } from './activate-profile-stats.mjs';
+import { activateStats, styleRank } from './activate-profile-stats.mjs';
 
 const readme = `<img src="https://example.com/api?username=alveeria" height="165em" alt="Alveeria — public GitHub stats, all-time commits"/>
 <img src="https://example.com/languages" height="165em" alt="Language usage in Alveeria's public repositories"/>
@@ -9,14 +9,23 @@ const stats = '<svg><text data-testid="commits">Total Commits:</text><text>53</t
 const languages = '<svg><text>Most Used Languages</text></svg>';
 const time = '2026-11-14T06:17:00Z';
 
-test('enlarges only the rank font without changing its value or other text', () => {
-  const svg = '<svg><style>.header {font: 600 18px sans-serif;} .rank-text {font: 800 24px sans-serif; fill: white;}</style><text>C</text></svg>';
-  const result = enlargeRank(svg);
-  assert.match(result, /\.rank-text \{font: 800 36px/);
+test('matches reference rank size without changing its value or other text', () => {
+  const svg = '<svg><style>.header {font: 600 18px sans-serif;} .rank-text {font: 800 36px sans-serif; fill: white;}</style><text>C</text></svg>';
+  const result = styleRank(svg);
+  assert.match(result, /\.rank-text \{font: 800 24px/);
   assert.match(result, /\.header \{font: 600 18px/);
   assert.match(result, /<text>C<\/text>/);
-  assert.equal(enlargeRank(result), result);
-  assert.equal(enlargeRank('<svg></svg>'), '<svg></svg>');
+  assert.equal(styleRank(result), result);
+  assert.equal(styleRank('<svg></svg>'), '<svg></svg>');
+});
+
+test('stacks stats, streak and languages in the reference order', () => {
+  const input = readme + '\n<!-- profile-stats-cards:start -->old cards<!-- profile-stats-cards:end -->';
+  const result = activateStats(input, stats, languages, time);
+  const block = result.split('<!-- profile-stats-cards:start -->')[1];
+  assert.ok(block.indexOf('assets/github-stats.svg') < block.indexOf('assets/github-streak.svg'));
+  assert.ok(block.indexOf('assets/github-streak.svg') < block.indexOf('assets/github-languages.svg'));
+  assert.equal((block.match(/width="495"/g) || []).length, 3);
 });
 
 test('activates both local images and records the successful update time', () => {

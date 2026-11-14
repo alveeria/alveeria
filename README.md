@@ -157,10 +157,14 @@
 <!-- ================= GITHUB STATS ================= -->
 <h2 align="center"><img src="assets/stats.gif" width="30px"/> GitHub Statistics</h2>
 
-<div align="center">
-  <img src="assets/github-stats.svg" height="165em" alt="Alveeria — GitHub stats across authorized repositories"/>
-  <img src="assets/github-languages.svg" height="165em" alt="Aggregate language usage across authorized repositories"/>
-</div>
+<!-- profile-stats-cards:start -->
+<p align="center">
+  <img src="assets/github-stats.svg" width="495" alt="Alveeria — GitHub stats across authorized repositories" />
+</p>
+<p align="center">
+  <img src="assets/github-languages.svg" width="495" alt="Aggregate language usage across authorized repositories" />
+</p>
+<!-- profile-stats-cards:end -->
 <!-- profile-stats-status:start -->
 <p align="center"><sub>Public + token-accessible private repos · updated 2026-11-14 04:20 UTC<br/>Scheduled every 6 hours · language usage ≠ proficiency</sub></p>
 <!-- profile-stats-status:end -->
