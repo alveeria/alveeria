@@ -55,13 +55,15 @@
 <h2 align="center"><img src="assets/about_me.gif" width="25px"/> About Me</h2>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=500&lines=Management+student+learning+coding+%F0%9F%93%9A;Coding+casually+as+a+hobby+%F0%9F%92%BB;Passionate+about+gaming+%F0%9F%8E%AE;Drinking+coffee+and+sleeping+%E2%98%95" alt="About me Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=500&lines=Management+student+%26+Vibe+Coder;WhatsApp+bots%2C+APIs+%26+web+projects;Learning+by+building+and+tinkering;A+little+code%2C+coffee+%26+JKT48" alt="About me Typing SVG" />
 </p>
 
 ```
-🎓  Management student who loves coding casually as a hobby
-☕  Passionate about gaming, drinking coffee, and sleeping
-⭐  Indonesian JKT48 fan (FJKT48)
+🎓  Management student & Vibe Coder from Indonesia
+💻  Tinkering with WhatsApp bots, APIs, scrapers & web projects
+🌱  Learning JavaScript & TypeScript through personal projects
+☕  Into gaming, coffee, and catching up on sleep
+⭐  JKT48 fan — Marsha & Freya oshi
 ```
 
 <!-- ================= JKT48 FAVORITES ================= -->
@@ -78,6 +80,7 @@
 
 <!-- ================= TECH STACK ================= -->
 <h2 align="center">🛠️ Tech Stack</h2>
+<p align="center"><sub>Tools I use and explore in my projects.</sub></p>
 
 <details open>
   <summary><strong>🔤 Languages</strong></summary>
@@ -85,7 +88,6 @@
   <p align="left">
     <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
     <img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node.js" />
   </p>
 </details>
 
@@ -94,16 +96,33 @@
   <br/>
   <p align="left">
     <img src="https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
-    <img src="https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3" />
+    <img src="https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css&logoColor=663399" alt="CSS3" />
+    <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js" />
+    <img src="https://img.shields.io/badge/Vue.js-111827?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js" />
+    <img src="https://img.shields.io/badge/Nuxt-111827?style=for-the-badge&logo=nuxt&logoColor=00DC82" alt="Nuxt" />
   </p>
 </details>
 
 <details open>
-  <summary><strong>🗄️ Databases</strong></summary>
+  <summary><strong>⚙️ Backend, Bots &amp; Scraping</strong></summary>
+  <br/>
+  <p align="left">
+    <img src="https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node.js" />
+    <img src="https://img.shields.io/badge/Fastify-111827?style=for-the-badge&logo=fastify&logoColor=FFFFFF" alt="Fastify" />
+    <img src="https://img.shields.io/badge/Baileys-111827?style=for-the-badge&logo=whatsapp&logoColor=25D366" alt="Baileys" />
+    <img src="https://img.shields.io/badge/Cheerio-111827?style=for-the-badge&logo=cheerio&logoColor=E88C1F" alt="Cheerio" />
+  </p>
+</details>
+
+<details open>
+  <summary><strong>🗄️ Databases &amp; ORM</strong></summary>
   <br/>
   <p align="left">
     <img src="https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
-    <img src="https://img.shields.io/badge/SQLite-111827?style=for-the-badge&logo=sqlite&logoColor=003B57" alt="SQLite" />
+    <img src="https://img.shields.io/badge/SQLite-111827?style=for-the-badge&logo=sqlite&logoColor=54B5E3" alt="SQLite" />
+    <img src="https://img.shields.io/badge/Turso-111827?style=for-the-badge&logo=turso&logoColor=4FF8D2" alt="Turso" />
+    <img src="https://img.shields.io/badge/Prisma-111827?style=for-the-badge&logo=prisma&logoColor=FFFFFF" alt="Prisma" />
   </p>
 </details>
 
@@ -116,6 +135,8 @@
     <img src="https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
     <img src="https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux" />
     <img src="https://img.shields.io/badge/Nginx-111827?style=for-the-badge&logo=nginx&logoColor=009639" alt="Nginx" />
+    <img src="https://img.shields.io/badge/PM2-111827?style=for-the-badge&logo=pm2&logoColor=2B8CFF" alt="PM2" />
+    <img src="https://img.shields.io/badge/GitHub_Actions-111827?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
   </p>
 </details>
 
@@ -137,9 +158,12 @@
 <h2 align="center"><img src="assets/stats.gif" width="30px"/> GitHub Statistics</h2>
 
 <div align="center">
-  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=alveeria&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F75C7E&icon_color=F75C7E&text_color=FFFFFF" height="165em" alt="alveeria Stats"/>
-  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=alveeria&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F75C7E&text_color=FFFFFF" height="165em" alt="alveeria Top Languages"/>
+  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=alveeria&amp;include_all_commits=true&amp;show_icons=true&amp;theme=radical&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=F75C7E&amp;icon_color=F75C7E&amp;text_color=FFFFFF" height="165em" alt="Alveeria — public GitHub stats, all-time commits"/>
+  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=alveeria&amp;layout=compact&amp;theme=radical&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=F75C7E&amp;text_color=FFFFFF" height="165em" alt="Language usage in Alveeria's public repositories"/>
 </div>
+<!-- profile-stats-status:start -->
+<p align="center"><sub>Public stats for now · private stats pending token setup · <a href="docs/PROFILE-STATS.md">Setup</a></sub></p>
+<!-- profile-stats-status:end -->
 
 <br/>
 
