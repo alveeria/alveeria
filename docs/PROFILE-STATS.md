@@ -8,7 +8,7 @@ Until then, the public cards stay visible and the README explicitly says private
 
 1. Create a **dedicated classic GitHub PAT** under <https://github.com/settings/tokens>, with `repo` and `read:user` scopes. Set an expiration date. These are the upstream generator's documented scopes for private statistics; its documented fine-grained setup does not provide private commit totals.
 2. **Security:** `repo` is a broad permission, not read-only. Use a separate token only for this workflow, never reuse a deployment token, and revoke/rotate it if it leaks. Don't paste it into chat, code, a URL, or the README. The workflow is pinned to reviewed action revisions, but the generator and its dependencies still execute with this token during card generation. Only run trusted workflow revisions.
-3. Open <https://github.com/alveeria/alveeria/settings/secrets/actions/new>. Create the repository secret **`PROFILE_STATS_TOKEN`** and paste the token directly into GitHub's secret field.
+3. Open <https://github.com/alveeria/alveeria/settings/secrets/actions/new>. Create the repository secret **`ALVEERIA`** (the name configured in this repository's workflow) and paste the token directly into GitHub's secret field.
 4. Open <https://github.com/alveeria/alveeria/actions/workflows/profile-stats.yml>, choose **Run workflow**, and run it on `main`.
 5. After success, the workflow commits the two SVG cards and updates the README image paths and UTC timestamp. No private repository names or source files are added to this repository.
 

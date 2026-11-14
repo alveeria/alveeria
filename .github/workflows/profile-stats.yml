@@ -23,10 +23,10 @@ jobs:
     steps:
       - name: Check private statistics token
         env:
-          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+          PROFILE_STATS_TOKEN: ${{ secrets.ALVEERIA }}
         run: |
           if [ -z "$PROFILE_STATS_TOKEN" ]; then
-            echo "::error::Add the PROFILE_STATS_TOKEN Actions secret with access to the repositories you want counted. Existing public cards will be kept."
+            echo "::error::Add the ALVEERIA Actions secret with access to the repositories you want counted. Existing public cards will be kept."
             exit 1
           fi
 
@@ -39,7 +39,7 @@ jobs:
           card: stats
           options: username=alveeria&include_all_commits=true&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F75C7E&icon_color=F75C7E&text_color=FFFFFF
           path: assets/github-stats.svg
-          token: ${{ secrets.PROFILE_STATS_TOKEN }}
+          token: ${{ secrets.ALVEERIA }}
 
       - name: Generate aggregate language statistics
         uses: readme-tools/github-readme-stats-action@27f3601ffd7302c6ffaefb472ba8383d2a296e3f # v1
@@ -47,7 +47,7 @@ jobs:
           card: top-langs
           options: username=alveeria&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F75C7E&text_color=FFFFFF
           path: assets/github-languages.svg
-          token: ${{ secrets.PROFILE_STATS_TOKEN }}
+          token: ${{ secrets.ALVEERIA }}
 
       - name: Validate cards and update README references
         run: node scripts/activate-profile-stats.mjs
